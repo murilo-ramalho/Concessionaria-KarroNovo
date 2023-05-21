@@ -1,6 +1,10 @@
 public class Carro extends Automotor{
     public int QtdePortas;
 
+    public void Cadastrar(){
+        
+    }
+
     @Override
     public void alterar() {
 
