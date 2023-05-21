@@ -7,12 +7,13 @@ public abstract class Veiculo {
     public String Marca;
     public String Modelo;
     public String Valor;
+    public String Combustivel;
 
     //      Construtor
     public Veiculo(){
         Scanner obterDados = new Scanner(System.in);
 
-        System.out.println("Digite o Código: ");
+        System.out.println("Digite o Número do Código: ");
         this.Codigo = obterDados.nextLine();
 
         System.out.println("Digite a Cor: ");
@@ -26,10 +27,14 @@ public abstract class Veiculo {
 
         System.out.println("Digite o Valor: ");
         this.Valor = obterDados.nextLine();
+
+        System.out.println("Digite o Combustivel: ");
+        this.Valor = obterDados.nextLine();
     }
 
+
     //      Métodos
-    public abstract void cadastrar();
+
     public abstract void alterar();
     public abstract void consultar();
     public abstract void excluir();
