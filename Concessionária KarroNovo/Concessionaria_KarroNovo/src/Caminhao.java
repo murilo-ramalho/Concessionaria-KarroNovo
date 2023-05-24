@@ -21,4 +21,14 @@ public class Caminhao extends Veiculo {
     public void consultarTodos() {
 
     }
+
+    @Override
+    public void veiculoEditar() {
+
+    }
+
+    @Override
+    public void selecinarVeiculo() {
+
+    }
 }

@@ -20,4 +20,14 @@ public class Bicicleta extends Veiculo{
     public void consultarTodos() {
 
     }
+
+    @Override
+    public void veiculoEditar() {
+
+    }
+
+    @Override
+    public void selecinarVeiculo() {
+
+    }
 }

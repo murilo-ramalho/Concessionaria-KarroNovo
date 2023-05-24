@@ -39,4 +39,9 @@ public abstract class Veiculo {
     public abstract void consultar();
     public abstract void excluir();
     public abstract void consultarTodos();
+
+    public abstract void veiculoEditar();
+
+    public abstract void selecinarVeiculo();
+
 }
